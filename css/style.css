@@ -228,6 +228,10 @@ main {
     opacity: 1;
 }
 
+.img_pag {
+    width: 220px;
+}
+
 footer {
     background-color: #f8f8f8;
     margin: 20px 0px;
