@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suri Jóias</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalho1">
+                <form class="searchbox" action="">
+                    <input type="pesquisa" placeholder="O que deseja encontrar?" />
+                    <img class="img_icon" src="img/pesquisa.png">
+                    <div id="container_search">
+                        <P></P>
+                    </div>
+                </form>
+            </div>
+            <div class="cabecalho2">
+                <img class="img_logo" src="img/logo_auaha.png">
+                <!-- <h1>AUAHA</h1>
+                <p>Front-End</p> -->
+            </div>
+            <div class="cabecalho3">
+                <p><img class="img_icon" src="img/outline_account.png"><a>Minha Conta</a></p>
+                <p><img class="img_icon" src="img/phone_in_talk.png"><a>(99) 99999-9999</a></p>
+                <p><img class="img_icon" src="img/outline_shopping.png"><a>Meu Carrinho</a></p>
+            </div>
+        </div>
+        <nav>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="#">Anés</a>
+                    <!-- <div class="menu_secundario">
+                        <a href="#" class="menu_secundario_item">Folheados</a>
+                        <ul class="menulist">
+                            <li class="menulist_item"><a href="#" class="linklist_item">ANEL</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">SOLITÁRIA</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">CRISTAL</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">PÉROLA</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">ZIRCÔNIA</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu_secundario">
+                        <a href="#" class="menu_secundario_item">Prata</a>
+                        <ul class="menulist">
+                            <li class="menulist_item"><a href="#" class="linklist_item">ANEL</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">SOLITÁRIA</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">CRISTAL</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">PÉROLA</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">ZIRCÔNIA</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu_secundario">
+                        <a href="#" class="menu_secundario_item">Ouro</a>
+                        <ul class="menulist">
+                            <li class="menulist_item"><a href="#" class="linklist_item">ANEL</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">SOLITÁRIA</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">CRISTAL</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">PÉROLA</a></li>
+                            <li class="menulist_item"><a href="#" class="linklist_item">ZIRCÔNIA</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu_secundario_img">
+    
+                    </div> -->
+                </li>
+                <li><a href="#">Brincos</a></li>
+                <li><a href="#">Colares</a></li>
+                <li><a href="#">Pingentes</a></li>
+                <li><a href="#">Pulseiras</a></li>
+                <li><a href="#">Kits</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slide_container">
+            <div class="slider_principal fade">
+                <img class="img_slider" src="img/Grupo_de_mscara_2.png" alt="image1">
+            </div>
+            <div class="slider_principal fade">
+                <img class="img_slider" src="img/Grupo_de_mscara_2.png" alt="image2">
+            </div>
+            <div class="slider_principal fade">
+                <img class="img_slider" src="img/Grupo_de_mscara_2.png" alt="image3">
+            </div>
+            <div class="slider_principal fade">
+                <img class="img_slider" src="img/Grupo_de_mscara_2.png" alt="image4">
+            </div>
+            <a class="prev_slider" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next_slider" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div class="onclick">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        </div>
+        <div class="info_principal">
+            <p class="info_principal1"><img class="img_icon" src="img/local_shipping.png"><span class="negrito">Frete grátis</span> nas compras acima de R$ 299,00</p>
+            <p class="info_principal1"><img class="img_icon" src="img/wallet.png"><span class="negrito">6 vezes sem juros</span> no cartão de crédito</p>
+        </div>
+        <div class="categoria_produtos">
+            <div class="cat_prod item_anel">
+                <a href=""><img src="img/aneis.png" alt="Anéis"></a>
+                <p>Anéis</p>
+            </div>
+            <div class="cat_prod item_brincos">
+                <a href=""><img src="img/brincos.png" alt="Brincos"></a>
+                <p>Brincos</p>
+            </div>
+            <div class="cat_prod item_colares">
+                <a href=""><img src="img/colares.png" alt="Colares"></a>
+                <p>Colares</p>
+            </div>
+            <div class="cat_prod item_pulseiras">
+                <a href=""><img src="img/pulseiras.png" alt="Pulseiras"></a>
+                <p>Pulseiras</p>
+            </div>
+            <div class="cat_prod item_pingentes">
+                <a href=""><img src="img/pingentes.png" alt="Pingentes"></a>
+                <p>Pingentes</p>
+            </div>
+        </div>
+        <div class="mini-banner-container">
+            <div class="mini-banner">
+                <img src="img/mão.png" alt="magem_aneis">
+                <p>Novidades</p>
+            </div>
+            <div class="mini-banner">
+                <img src="img/colar.png" alt="imagem_colar">
+                <p>Destaques</p>
+            </div>
+        </div>
+        <div class="comentario">
+            <div>
+                <h1>O que os clientes dizem</h1>
+            </div>
+            <div class="comentario-content">
+                <ul>
+                    <li class="content-name">Nome do cliente</li>
+                    <li class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi eros, interdum in purus vitae, semper porttitor ligula. Sed egestas odio ut pretium aliquet.</li>
+                    <li class="data">12/10/2020</li>
+                </ul>
+                <ul class="comentario-caixa">
+                    <li class="content-name">Nome do cliente</li>
+                    <li class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi eros, interdum in purus vitae, semper porttitor ligula. Sed egestas odio ut pretium aliquet.</li>
+                    <li class="data">12/10/2020</li>
+                </ul>
+                <ul>
+                    <li class="content-name">Nome do cliente</li>
+                    <li class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi eros, interdum in purus vitae, semper porttitor ligula. Sed egestas odio ut pretium aliquet.</li>
+                    <li class="data">12/10/2020</li>
+                </ul>
+            </div>
+        </div>
+        <div class="contato_cliente">
+            <div>
+                <h1>Receba ofertas e novidades</h1>
+                <h3>Cadastre-se e receba nossas novidades e promoções</h3>
+            </div>
+            <div class="contato_form">
+                <div class="contato_nome">
+                    <input type="text" class="txtNome" placeholder="Seu nome" />
+                </div>
+                <div class="contato_email">
+                    <input type="email" class="txtEmail" placeholder="Seu e-mail" />
+                </div>
+                <div class="contato_botao">
+                    <button>Enviar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <div id="info_Footer">
+                <h3>Contato</h3>
+                <p><img class="img_icon" src="img/av_timer.png"><a href="">Das 09:00 as 17:00</a></p>
+                <p><img class="img_icon" src="img/phone_in_talk.png"><a href="">(11) 98751-2918</a></p>
+                <p><img class="img_icon" src="img/local_shipping.png"><a href="">vendas@surijoias.com.br</a></p>
+            </div>
+            <div id="info_Footer">
+                <h3>Institucional</h3>
+                <p>Sobre nós</p>
+                <p>Trocas e Devoluções</p>
+                <p>Entregas e Prazos</p>
+                <p>Blog</p>
+            </div>
+            <div id="info_Footer">
+                <h3>Ajuda</h3>
+                <p>Contato</p>
+                <p>Tire suas dúvidas</p>
+                <p>Garantia e Cuidados</p>
+            </div>
+            <div id="info_Footer">
+                <h3>Pagamentos</h3>
+                <div id="box_payment">
+                    <img class="img_payment" src="">
+                </div>
+                <div id="box_payment">
+                    <img class="img_payment" src="">
+                </div>
+                <div id="box_payment">
+                    <img class="img_payment" src="">
+                </div>
+                </p>
+            </div>
+            <div id="info_Footer">
+                <h3>Siga-Nos</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </section>
+        <p class="copyright">© SURI JOIAS. Proibida reprodução total ou parcial. Preços e estoques sujeitos à alteração sem aviso prévio - CNPJ: 00.680.164.0001/07 - R. Exemplo, 00, Bairro Exemplo, Exemplo – EX</p>
+    </footer>
+    <script src="js/mobile-navbar.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/container.js"></script>
+</body>
+
+</html>
